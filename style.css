@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+body{
+  font-family: 'Fugaz One', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+div{
+  font-family: 'Fugaz One', cursive;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+a {
+  background: #30A6E6;
+  color: #ffffff;
+  display: block;
+  font: bold 13px sans-serif;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+li:hover a {
+  background: rgb(140, 0, 255);
+}
+
+.footer-columns {
+  displeay: flex;
+}
+
+.footer-columns {
+  flex: 50%;
+  margin: 20px
+}
+
+header,
+footer {
+  background: #38b6ff;
+  padding: 10px;
+}
